@@ -1,0 +1,29 @@
+body{
+    background-color: slateblue;
+    margin: 196px 560px;
+}
+h1{
+    color : cornsilk;
+    text-align: center;
+    font-size: 60px;
+    
+}
+
+h2{
+    color : cornsilk;
+    text-align: center;
+    font-size: 30px;
+}
+h3{
+    color : cornsilk;
+}
+h4{
+    color : cornsilk;
+}
+h5{
+    color : cornsilk;
+    font-size: 20px;
+}
+h6{
+    color : slateblue;
+}

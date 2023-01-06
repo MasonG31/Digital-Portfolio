@@ -1,0 +1,29 @@
+body{
+    background-color : black;
+    margin: 96px 96px;
+}
+h1{
+    color : cornflowerblue;
+    text-align: center;
+    font-size: 60px;
+}
+h2{
+    color : cornflowerblue;
+    text-align: center;
+}
+h3{
+    color : cornflowerblue;
+}
+h4{
+    color : cornflowerblue;
+    font-size : 18px;
+}
+h5{
+    color : cornflowerblue;
+    text-indent: 50px;
+    font-size: 18px;
+    
+}
+h6{
+    color : cornflowerxblue;
+  }
