@@ -1,0 +1,27 @@
+body{
+    background-color : mistyrose;
+    margin: 196px 560px;
+}
+h1{
+    color : coral;
+    margin-left: 5px;
+    text-align: center;
+    font-size: 40px
+}
+h3{
+    color : dodgerblue;
+    margin-left: 20px;
+    text-align: center;
+}
+h2{
+    color : yellow;
+    margin-left: 5px;
+    text-align: center;
+    font-size: 30px
+}
+h4{
+    color : white;
+}
+h6{
+    color : mistyrose;
+}
