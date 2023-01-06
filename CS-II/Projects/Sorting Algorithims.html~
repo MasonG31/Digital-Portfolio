@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title> Sorting Hypothesis </title>
+    <link rel = "stylesheet" href="StyleSheet.css">
+  </head>
+  <body>
+    <h1> Sorting Algorithims </h1>
+    <h2> Insertion Sort, Selection Sort, and Bubble Sort </h2>
+
+    <h2> About the Sorting Algorithims</h2>
+    <h3> Ways to sort data come in all shapes, sizes and colors. I will be testing 3 different common algorithims that will be ordering words into althebetical order. Using a scientific design, I will have varying depenent varibles, such as the length of the input of strings I will provide. Also varriyed, will be the order of the input strings, such as a random order, a reversed order, or an already sorted alphabetical order. Using the built in dictionary from the shell, I will break off smaller arrays from the vast dictionary to use as my input : seen below. </h3>
+
+    <h2> Commands I used </h2>
+
+    <h3> cat /usr/share/dict/words > word.txt </h3>
+    <h3>cat word.txt | head -nX > random.txt </h3>
+    <h3>ln -s .build/debug/Simple mySort </h3>
+    <h3>time cat randon.txt | ./mySort </h3>
+    <h3>For inverse sorting I used : cat word.txt | sort -r | head -nX > random.txt </h3>
+    <h3>For reverse sorting I used : cat word.txt | sort -R| head -nX > random.txt </h3>
+    <h3>The X represents the varible with difffereing valuesfrom 1-100000, which would result in different times, for the sorts. </h3>
+
+
+
+    <h1> Links to GitHub, with my code </h1>
+    <a href = "http://github.com/MasonG31/InsertionSorting"> Insertion Sort </a>
+    <a href = "http://github.com/MasonG31/SelectionSorting"> Selection Sort </a>
+    <a href = "http://github.com/MasonG31/Bubble-Sort"> Bubble Sort </a>
+
+    <h1> Links to Data Points with Table </h1>
+    <a href="https://docs.google.com/spreadsheets/d/1Y2aD_ZItUXOS5e8QIHFWcRRsSWe71FR_DWy1US1QtSQ/edit?usp=sharing"> </a>
+  </body>
+  </html>
+    
+    

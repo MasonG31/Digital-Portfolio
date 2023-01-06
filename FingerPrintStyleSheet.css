@@ -1,0 +1,31 @@
+body {
+    background-color : black;
+}
+
+h4 {
+    background-color: yellow;
+}
+h2{
+    color : lightgreen;
+    margin-left : 5px
+}
+
+h3{
+    background-color: lightgreen;
+    marin-left : 5px
+}
+
+h1{
+    color : lightgreen;
+    marin-left: 100px
+}
+
+h6{
+    color: black;
+    margin-left: 10px
+}
+
+p{
+    color : black;
+    margin-left: 10px
+}

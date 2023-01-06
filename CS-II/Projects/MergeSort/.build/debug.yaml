@@ -1,0 +1,62 @@
+client:
+  name: basic
+tools: {}
+targets:
+  "PackageStructure": ["<PackageStructure>"]
+  "Simple-debug.exe": ["<Simple-debug.exe>"]
+  "Simple-debug.module": ["<Simple-debug.module>"]
+  "main": ["<Simple-debug.exe>","<Simple-debug.module>"]
+  "test": ["<Simple-debug.exe>","<Simple-debug.module>"]
+default: "main"
+nodes:
+  "/home/mason-graham/Digital Portfolio/CS-II/Projects/MergeSort/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+commands:
+  "/home/mason-graham/Digital Portfolio/CS-II/Projects/MergeSort/.build/x86_64-unknown-linux-gnu/debug/Simple.build/Simple.swiftmodule.o":
+    tool: shell
+    inputs: ["/home/mason-graham/Digital Portfolio/CS-II/Projects/MergeSort/.build/x86_64-unknown-linux-gnu/debug/Simple.build/Simple.swiftmodule"]
+    outputs: ["/home/mason-graham/Digital Portfolio/CS-II/Projects/MergeSort/.build/x86_64-unknown-linux-gnu/debug/Simple.build/Simple.swiftmodule.o"]
+    description: "Wrapping AST for Simple for debugging"
+    args: ["/usr/bin/swiftc","-modulewrap","/home/mason-graham/Digital Portfolio/CS-II/Projects/MergeSort/.build/x86_64-unknown-linux-gnu/debug/Simple.build/Simple.swiftmodule","-o","/home/mason-graham/Digital Portfolio/CS-II/Projects/MergeSort/.build/x86_64-unknown-linux-gnu/debug/Simple.build/Simple.swiftmodule.o","-target","x86_64-unknown-linux-gnu"]
+
+  "<Simple-debug.exe>":
+    tool: phony
+    inputs: ["/home/mason-graham/Digital Portfolio/CS-II/Projects/MergeSort/.build/x86_64-unknown-linux-gnu/debug/Simple"]
+    outputs: ["<Simple-debug.exe>"]
+
+  "<Simple-debug.module>":
+    tool: phony
+    inputs: ["/home/mason-graham/Digital Portfolio/CS-II/Projects/MergeSort/.build/x86_64-unknown-linux-gnu/debug/Simple.build/main.swift.o","/home/mason-graham/Digital Portfolio/CS-II/Projects/MergeSort/.build/x86_64-unknown-linux-gnu/debug/Simple.build/Simple.swiftmodule"]
+    outputs: ["<Simple-debug.module>"]
+
+  "C.Simple-debug.exe":
+    tool: shell
+    inputs: ["/home/mason-graham/Digital Portfolio/CS-II/Projects/MergeSort/.build/x86_64-unknown-linux-gnu/debug/Simple.build/Simple.swiftmodule.o","/home/mason-graham/Digital Portfolio/CS-II/Projects/MergeSort/.build/x86_64-unknown-linux-gnu/debug/Simple.build/main.swift.o"]
+    outputs: ["/home/mason-graham/Digital Portfolio/CS-II/Projects/MergeSort/.build/x86_64-unknown-linux-gnu/debug/Simple"]
+    description: "Linking ./.build/x86_64-unknown-linux-gnu/debug/Simple"
+    args: ["/usr/bin/swiftc","-L","/home/mason-graham/Digital Portfolio/CS-II/Projects/MergeSort/.build/x86_64-unknown-linux-gnu/debug","-o","/home/mason-graham/Digital Portfolio/CS-II/Projects/MergeSort/.build/x86_64-unknown-linux-gnu/debug/Simple","-module-name","Simple","-emit-executable","-Xlinker","-rpath=$ORIGIN","@/home/mason-graham/Digital Portfolio/CS-II/Projects/MergeSort/.build/x86_64-unknown-linux-gnu/debug/Simple.product/Objects.LinkFileList","-target","x86_64-unknown-linux-gnu","-L","/usr/lib"]
+
+  "C.Simple-debug.module":
+    tool: swift-compiler
+    inputs: ["/home/mason-graham/Digital Portfolio/CS-II/Projects/MergeSort/main.swift"]
+    outputs: ["/home/mason-graham/Digital Portfolio/CS-II/Projects/MergeSort/.build/x86_64-unknown-linux-gnu/debug/Simple.build/main.swift.o","/home/mason-graham/Digital Portfolio/CS-II/Projects/MergeSort/.build/x86_64-unknown-linux-gnu/debug/Simple.build/Simple.swiftmodule"]
+    executable: "/usr/bin/swiftc"
+    module-name: "Simple"
+    module-output-path: "/home/mason-graham/Digital Portfolio/CS-II/Projects/MergeSort/.build/x86_64-unknown-linux-gnu/debug/Simple.build/Simple.swiftmodule"
+    import-paths: ["/home/mason-graham/Digital Portfolio/CS-II/Projects/MergeSort/.build/x86_64-unknown-linux-gnu/debug"]
+    temps-path: "/home/mason-graham/Digital Portfolio/CS-II/Projects/MergeSort/.build/x86_64-unknown-linux-gnu/debug/Simple.build"
+    objects: ["/home/mason-graham/Digital Portfolio/CS-II/Projects/MergeSort/.build/x86_64-unknown-linux-gnu/debug/Simple.build/main.swift.o"]
+    other-args: ["-target","x86_64-unknown-linux-gnu","-swift-version","5","-enable-batch-mode","-index-store-path","/home/mason-graham/Digital Portfolio/CS-II/Projects/MergeSort/.build/x86_64-unknown-linux-gnu/debug/index/store","-Onone","-enable-testing","-g","-j8","-DSWIFT_PACKAGE","-DDEBUG","-module-cache-path","/home/mason-graham/Digital Portfolio/CS-II/Projects/MergeSort/.build/x86_64-unknown-linux-gnu/debug/ModuleCache","-parseable-output"]
+    sources: ["/home/mason-graham/Digital Portfolio/CS-II/Projects/MergeSort/main.swift"]
+    is-library: false
+    enable-whole-module-optimization: false
+    num-threads: 8
+
+  "PackageStructure":
+    tool: package-structure-tool
+    inputs: ["/home/mason-graham/Digital Portfolio/CS-II/Projects/MergeSort/","/home/mason-graham/Digital Portfolio/CS-II/Projects/MergeSort/Package.swift","/home/mason-graham/Digital Portfolio/CS-II/Projects/MergeSort/Package.resolved"]
+    outputs: ["<PackageStructure>"]
+    description: "Planning build"
+    allow-missing-inputs: true
+

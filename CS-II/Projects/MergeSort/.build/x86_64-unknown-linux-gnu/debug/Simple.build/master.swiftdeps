@@ -1,0 +1,6 @@
+version: "Swift version 5.7.1 (swift-5.7.1-RELEASE)"
+options: "b593dccd5479da3d0cce565ab91cb221571bbc01a67bff868a770ab02a89ac9b"
+build_start_time: [1670855697, 200978040]
+build_end_time: [1670855697, 408728122]
+inputs:
+  "/home/mason-graham/Digital Portfolio/CS-II/Projects/MergeSort/main.swift": [1670855696, 448781490]

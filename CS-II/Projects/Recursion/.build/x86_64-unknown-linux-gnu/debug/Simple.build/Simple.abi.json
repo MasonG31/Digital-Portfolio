@@ -1,0 +1,31 @@
+{
+  "kind": "Root",
+  "name": "TopLevel",
+  "printedName": "TopLevel",
+  "children": [
+    {
+      "kind": "Function",
+      "name": "countDown",
+      "printedName": "countDown(_:)",
+      "children": [
+        {
+          "kind": "TypeNominal",
+          "name": "Void",
+          "printedName": "()"
+        },
+        {
+          "kind": "TypeNominal",
+          "name": "Int",
+          "printedName": "Swift.Int",
+          "usr": "s:Si"
+        }
+      ],
+      "declKind": "Func",
+      "usr": "s:6Simple9countDownyySiF",
+      "mangledName": "$s6Simple9countDownyySiF",
+      "moduleName": "Simple",
+      "funcSelfKind": "NonMutating"
+    }
+  ],
+  "json_format_version": 6
+}

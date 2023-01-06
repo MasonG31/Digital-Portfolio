@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>ISP Project</title>
+    <link rel ="stylesheet" href="StyleSheet.css">
+  </head>
+
+  <body>
+    <h2> ISP Project </h2>
+
+    <h4> Concept </h4>
+
+    
+
+    <p> At the end of the year we worked on a project called the ISP in which we made a online game of war, using simulated cards. This was a fun challenge that involved me and my group to dive very deep into single and two-dimensonial arrays, and complex if else statments</p>
+
+
+    <h3> Motivation  </h3>
+	<p> We wanted to make a game based off standard 52 card games, because we had in the past written code to simulate games of these types, and we were intrested in writing a large piece of code that could play many of these games. We knew war would be challenging, and we wanted to give it a try for the final project of the year</p>
+
+	
+    <h4> Here are some examples of the code we wrote during the ISP project</h4>
+    <h5> hand2.append(hand1[z])</h5>
+      <h5>hand1.remove( at : (z))</h5>
+      <h5>let current = (hand2[0])</h5>
+      <h5>hand2.remove(at : (0))</h5>
+      <h5>hand2.append(current)</h5>
+     <h5> print("Player Two Wins Round")</h5>
+      
+    <p> This code is used to remve the top card of the losing hand, and add it to the bottom of the deck of the winning hand. This code is run inside a function, and is run everytime player 2 displays a higher card than player 1.</p>
+
+
+    <h3> Deep Summary of the Code</h3>
+    <h4> We start with 4 empty arrays of cards, representing the 4 suits of cards in a standard deck-which is the deck that is modeled after in this game. Each of these 4 "suits", would than pass through a for loop, that gives them values 1-13 representing the number values. Then a set number for each suit would be used to multiply every value of that suit into that range. The reason for this was to be able to easily identifiy which suit and value any card in the game was. For example spades were multiplyed by 1,000. 13,000, would have been the King of Spades. Then we wrote many functions taht performed tasks such as comparing cards, adding cards to the winning hand, and going to war, when the cards tied. There was one large loop on the outisde of the code to make sure the game would come to an end at a reasonable time. If it was until one hand had 52 cards, some games would take hundreds to thouands of rounds. We kept it simple to a 40 card count wins the game </h4>
+    <h3> Concluions from the ISP Project</h3>
+
+	<h4> When writing long sections of code, or even some short code, it is much faster to write out and plan on a piece of paper what it will do and steps to get there, than to just dive into the code and start writing. Fixing somethings for 2 weeks, is much more difficult, than writing the code correctly by planning, deliniating, and brainstorming. What worked very well during the project was our teamwork. I had a great team that was good at splitting up the work, collaborating, and completing deadlines on time. This left all of our energy and time to work on the difficult parts of the project, like the displays and code. This might sound unrealted, but late night coding is never as effective as early morning or when you are energized. If your tired and droggy, your code will reprsent that. Another tip I learned during the ISP project, is to jot down your ideas and where you are at in the code when you stop. To explain this, we wold code for about an hour in the morning during our class every day, and once the bell rung we would turn off the computers and not think about it until the next day. It wasn't until later in the project, that we were more efficeint in making sure we started right off where we left off, and not guessing what we were writing.</h4>
+	
+  </body>
+  </html>

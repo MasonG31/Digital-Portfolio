@@ -1,0 +1,23 @@
+body {
+    background-color : black;
+}
+h4 {
+    background-color : white;
+}
+p{
+    color : black;
+    margin-left: 60px
+}
+h1{
+    background-color: white;
+    text-align: center;
+}
+h2{
+    background-color: white;
+    text-align: center;
+		 
+}
+h3{
+    background-color: white;
+    margin-left: 60px;
+}

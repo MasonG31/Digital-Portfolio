@@ -1,0 +1,15 @@
+func countDown(_ n : Int) {
+    if n >  0{
+        countDown(n-1)
+        print(n)
+        //when you do the function first, it flips the order!!!!!!!
+        //walking up and down the stack and fix this. 
+    }
+    else{
+        print(n)
+    }
+}
+
+
+
+countDown(5)

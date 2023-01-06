@@ -1,0 +1,27 @@
+body{
+    background-color : mistyrose;
+    text-indent: 96px 96px;
+}
+h1{
+    color : yellow;
+    margin-left 5px;
+    text-align: center;
+    font-size : 60px;
+
+}
+h3{
+    color : dodgerblue;
+    margin-left: 20-x;
+    text-aling: center;
+}
+h2{
+    color : yellow;
+    margin-left: 5px;
+    text-aling: center;
+}
+h4{
+    color : whte
+}
+h5{
+    color : white
+}

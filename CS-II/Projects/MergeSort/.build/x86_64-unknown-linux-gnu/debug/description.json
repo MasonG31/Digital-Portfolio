@@ -1,0 +1,68 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+
+  },
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.Simple-debug.module" : {
+      "executable" : "/usr/bin/swiftc",
+      "importPath" : "/home/mason-graham/Digital Portfolio/CS-II/Projects/MergeSort/.build/x86_64-unknown-linux-gnu/debug",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/mason-graham/Digital Portfolio/CS-II/Projects/MergeSort/main.swift"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "Simple",
+      "moduleOutputPath" : "/home/mason-graham/Digital Portfolio/CS-II/Projects/MergeSort/.build/x86_64-unknown-linux-gnu/debug/Simple.build/Simple.swiftmodule",
+      "objects" : [
+        "/home/mason-graham/Digital Portfolio/CS-II/Projects/MergeSort/.build/x86_64-unknown-linux-gnu/debug/Simple.build/main.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-unknown-linux-gnu",
+        "-swift-version",
+        "5",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/home/mason-graham/Digital Portfolio/CS-II/Projects/MergeSort/.build/x86_64-unknown-linux-gnu/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-g",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/home/mason-graham/Digital Portfolio/CS-II/Projects/MergeSort/.build/x86_64-unknown-linux-gnu/debug/ModuleCache",
+        "-parseable-output"
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/mason-graham/Digital Portfolio/CS-II/Projects/MergeSort/.build/x86_64-unknown-linux-gnu/debug/Simple.build/main.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/mason-graham/Digital Portfolio/CS-II/Projects/MergeSort/.build/x86_64-unknown-linux-gnu/debug/Simple.build/Simple.swiftmodule"
+        }
+      ],
+      "sources" : [
+        "/home/mason-graham/Digital Portfolio/CS-II/Projects/MergeSort/main.swift"
+      ],
+      "tempsPath" : "/home/mason-graham/Digital Portfolio/CS-II/Projects/MergeSort/.build/x86_64-unknown-linux-gnu/debug/Simple.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "testDiscoveryCommands" : {
+
+  }
+}

@@ -1,0 +1,30 @@
+body {
+    background-color : black;
+    text-indent: 96px 96px;
+}
+
+h1 {
+    color : dodgerblue;
+    margin-left 5px;
+    text-align: center;
+    font-size: 60px;
+    
+}
+
+h3{
+    color : violet;
+    margin-left: 20px;
+		 text-align: center;
+}
+h2{
+    color : dodgerblue;
+    margin-left: 5px;
+    text-align: center;
+}
+
+h4{
+    color : white
+}
+h5{
+    color : white
+}

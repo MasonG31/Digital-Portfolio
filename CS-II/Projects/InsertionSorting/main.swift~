@@ -1,0 +1,4 @@
+import Foundation
+var wordArray = [String]()
+var sortedWordArray : [String]
+

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title> Optimal Sort </title>
+    <link rel = "stylesheet" href="StyleSheet.css">
+  </head>
+  <body>
+    <h1> Optimal Sort </h1>
+    <h2> Mason Graham, Sophie Hews, Faraz Piracha</h2>
+    <h2> Allen High School Steam Campus </h2>
+    <h2> Advanced Computer Science II </h2>
+    <h2> Mr. Ben-Yaakov</h2>
+    <h2> Sep 17 2022</h2>
+    <p> . </p>
+    <p>. </p>
+    <p> . </p>
+    <h2> Flowchart</h2>
+    <p> . </p>
+    <a href="Sorting%20Algorithims.html" target="blank"> Here is a link to my Sorting Algorithims Page. Where I go through the commands used, as well as my time tables for the different sorting algorithims used.</a>
+    
+    <img src="OptimalSort.png" alt="Italian Trulli">
+    <p> . </p>
+    <p> .</p>
+    <p> .</p>
+    <h2> Code </h2>
+    <a href="https://github.com/FarazPir/Optimal-Sorting"> Link to GitHub!</a>    
+    <p> .</p>
+    <p> . </p>
+    <h2> Spreadsheet </h2> 
+    <a href="https://docs.google.com/spreadsheets/d/1M9_RAGS9B7Kv6ZSINylTMLnpE1lxG6YADurIUBcZ7yI/edit?usp=sharing"> Link to Run Time SpreadSheet </a>
+  </body>
+  </html>

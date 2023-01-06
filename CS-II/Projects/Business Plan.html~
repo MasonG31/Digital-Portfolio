@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title> Business Plan </title>
+    <link rel = "stylesheet" href="StyleSheet.css">
+  </head>
+  <body>
+    <h1> Business Plan </h1>
+    <a href="Business%20Plan/index.html" target="blank">  Business Presentation</a>
+
+    <a href="Business%20Plan/considered.html" target="blank"> Considered Page </a> 
+  </body>
+</html>
+

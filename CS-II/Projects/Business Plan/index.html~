@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel = "stylesheet" href="StyleSheet.css">
+    <title><Presentation</title>
+	     </head>
+  <body>
+    <h1> Presentation </h1>
+  </body>
+</html>
+<h2> By: Mason Graham </h2>
+<h2> unIQue </h2>
+<h3> unIQue is a modern interactie experience that helps raise IQ, critical-thinking skills, and brain strength, through the use of engaging games, healthy lifestyle suggestions, and proven scientific proverbs. Our goal is to help youth, and children, reach their maximum potential by unlocking their creativty and problem-solving skills.</h3>
+
+<h2> Problem </h2>
+<h3> The problem that I am going to solve is that of low brain health and care across teenagers and young adults, my target audience. Throughout highschool, and other higher education systems, the  thought to take care of the brain is often neglected, and the brain is used as a machine rather than the organ that it is, needing water, nutrients, and mental exercise. The way we are going to solve this problem is by having an interactive webpage with activites that can rasie brain health, and also tackle the growing issue of caring for your mental health. The problem of mental health has been rapidly tearing through the world, and is a serious problem, that needs a serious solution. We will have scientificially proven activites that can help care for users mental health.</h3>
+
+<h2> Competition </h2>
+<h3> The main competition that we will face is that of therapists, and simple IQ games like Wordscapes or Anagrams on the apple webstore. This competition is far from easy, but it will not be insuperable to overcome. Therapists can charge an expensive fee, while unIQue will be free. And unIQues games and activites will be more diverse and larger in number, for example having multiple games instead of on App, this will draw in more viewers from all of those individual games. </h3>
+
+<h2> Revenue Streams </h2>
+<h3> Our main revenue streams will be from advertisments on our webpage. We will not be collecting profit off of our viewers, but off approved advertisments from specfic companies. Comapnies that match our morals and values will be approved, but we will not turn the webpage into a gltichy advertistment breeding grounds. Donations will also be included, and sponsers, because it is a good cause, collecting money from these funds could be an additional way to raise money for the company.</h3>
+
+
+  <h2> Marketing Actvitites </h2>
+  <h3> One of the main ways of marketing that will take place is by purchasing advertisments on other online websites. This way we can bring peple into our websites and then we can make money off of our advertisments on our page. We will make money off of our compnay having value, and by our webpage having value. We do this by having viewers on our website, and we need to do this by spreading the word of our website. When we begin purchasing these advertistments, we will be vary catuious and deleniatious in choosing the most efficient ways to bring in viewers. </h3>
+  
+  <h2> Expenses </h2>
+  <h3> The main expense of unIQue wil be purchasing advertisments, as seen above, and by spreading the word of our company. Once the webite is up and running, and the games and activittes are working, there will be a very little, if any cost, to keep it up and running. The main expense for our company will be spreading the word, but by doing this we will be ensuring more funds for our company. </h3>
+  <h2> Team Roles </h2>
+<h3> Our team will need to have someone that is great at digital design to make our webpage look great, we will be making this in css and html. We will need a few coders that can program games, and coders that understand fluent Java Script that can program the games themselves will be nessecary. We will be coding the website in Swift, but coding the games in Java Script. This will be a moderate sized team of about 5-7, and the final project will be something we are all proud of. </h3>
+  <h2> Milestones </h2>
+<h3> The completion of the project will be on April 30 2023, so we will complete the project on April 23 2023. Milestones will include having a well-looking and runnings website by Jan 1 2023. Afer that will be complete 1 game every 2 weeks. January 14th, 28th, February 4th, 18th, March 4th, and finally March 18th will all be completed game days. After that we will polish, add additinoal features and make the website more efficient. </h3>
+  
+
+<h2> Games </h2>
+<h3> Games that our webpage will include -that are proven to raise IQ-, puzzles, memory, and sudoku. </h3>
+
+<h2> Recipes </h2>
+<h3> The Brain is a complex machine, and for maximum performance requires the right amino acids, proteins, and nutrients. You would not put canola oil in a Ferrari, do not make the same common mistake with your precious mind. Friendly recipes and snacks that will keep your brain fresh and primed will be provided. </h3>
+
+<img scr="https://cdn.imgbin.com/2/3/16/imgbin-breakfast-brain-whole-grain-food-cookbook-breakfast-nLmsXEeX8iqbcQs5bqBb38AY7.jpg" alt="Brain Food">
+
+<h2> Science </h2>
+<h3> It is not rocket science, it is neuro-science. Luckily for you, hard-working physcologists and neuro-physicians have already cracked the code to understanding your brain, you just need to log in to view the tips and tricks from the worlds top brain masters.</h3>
+
+<img src="https://w7.pngwing.com/pngs/119/529/png-transparent-brain-the-human-brain-science-and-technology-brain-thumbnail.png" alt="Brain Science">
+
